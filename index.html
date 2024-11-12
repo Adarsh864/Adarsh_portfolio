@@ -32,22 +32,28 @@
 </div>
     </section>
 <script>
-        function toggleNav() {
-            const nav = document.querySelector('nav');
-            nav.classList.toggle('active');
-        }
-document.querySelectorAll('nav a').forEach(link => {
-    link.addEventListener('click', () => {
-        const nav = document.querySelector('nav');
-        nav.classList.remove('active');
-    });
-});
+            function toggleNav() {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('active');
+}
 
-// Close the menu when navigating back
+// Add event listener to the hamburger button
+const hamburger = document.getElementById('hamburger');
+hamburger.addEventListener('click', toggleNav);
+
+// Listen for the popstate event to detect when the user navigates back
 window.addEventListener('popstate', () => {
+    // Close the menu when navigating back
     const nav = document.querySelector('nav');
     nav.classList.remove('active');
 });
+
+// Optional: You can also listen for page unload to close the menu when leaving the page
+window.addEventListener('beforeunload', () => {
+    const nav = document.querySelector('nav');
+    nav.classList.remove('active');
+});
+ 
 </script>
 </body>
 </html>
