@@ -10,7 +10,7 @@
 <body>
     <header>
         <a href="#" class="logo">Adarsh Shetty</a>
-
+	<div class="hamburger-menu" onclick="toggleNav()">☰</div>
         <nav>
             <a href="#" class="active"> Home</a>
 		<a href="projects.html">Projects</a>
@@ -31,5 +31,11 @@
 <a href="resume.pdf" class="btn" target="_blank">RESUME</a>
 </div>
     </section>
+<script>
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+</script>
 </body>
 </html>
