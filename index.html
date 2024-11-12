@@ -36,6 +36,18 @@
             const nav = document.querySelector('nav');
             nav.classList.toggle('active');
         }
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', () => {
+        const nav = document.querySelector('nav');
+        nav.classList.remove('active');
+    });
+});
+
+// Close the menu when navigating back
+window.addEventListener('popstate', () => {
+    const nav = document.querySelector('nav');
+    nav.classList.remove('active');
+});
 </script>
 </body>
 </html>
