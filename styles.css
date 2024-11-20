@@ -199,24 +199,81 @@ header nav ul li a:hover {
 }
 
 /* Projects Section */
-.home {
+section.home {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    height: 100vh;
     text-align: center;
+    background-image: url('hospital.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 0 20px;
+}
+
+.home-content {
+    background: rgba(26, 26, 26, 0.8); /* Semi-transparent dark background for the box */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    max-width: 700px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-content:hover {
+    transform: translateY(-10px); /* Lift the box slightly on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7); /* Enhance the shadow on hover */
 }
 
 .home-content h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #ff4c4c; /* Bright red */
+    margin-bottom: 20px;
+}
+
+.home-content h1 span {
+    display: block;
+    color: #fff; /* White for contrast */
+    font-size: 1.5rem;
+    margin-top: 10px;
 }
 
 .home-content p {
-    font-size: 1.4rem;
-    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #ccc; /* Light gray for secondary text */
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Add some hover effects for interaction */
+.home-content h1:hover {
+    color: #ff6b6b; /* Slightly brighter red on hover */
+}
+
+.home-content p:hover {
+    color: #fff; /* White on hover */
+}
+
+
+/* Add some hover effects for interaction */
+.home-content h1:hover {
+    color: #ff6b6b; /* Slightly brighter red on hover */
+}
+
+.home-content p:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Add some hover effects for interaction */
+.home-content h1:hover {
+    color: #ff6b6b; /* Slightly brighter red on hover */
+}
+
+.home-content p:hover {
+    color: #fff; /* White on hover */
 }
 
 @media (max-width: 480px) {
