@@ -275,16 +275,6 @@ section.home {
 .home-content p:hover {
     color: #fff; /* White on hover */
 }
-
-@media (max-width: 480px) {
-    .home-content h1 {
-        font-size: 2rem;
-    }
-
-    .home-content p {
-        font-size: 1.2rem;
-    }
-}
 /* General Animations and Effects */
 h2, h3 {
     transition: all 0.3s ease;
