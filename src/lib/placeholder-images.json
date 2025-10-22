@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-nft-marketplace",
+      "description": "Screenshot of a blockchain NFT marketplace.",
+      "imageUrl": "https://images.unsplash.com/photo-1694219782948-afcab5c095d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibG9ja2NoYWluJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3NjEwMTgxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blockchain technology"
+    },
+    {
+      "id": "project-doctor-appointment",
+      "description": "Screenshot of an online doctor appointment booking system.",
+      "imageUrl": "https://images.unsplash.com/photo-1663153206213-d45285ce3fe2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZWRpY2FsJTIwYXBwfGVufDB8fHx8MTc2MTEwMjQ1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical app"
+    },
+    {
+      "id": "project-leetcode-ai",
+      "description": "Screenshot of a LeetCode AI hint generator chrome extension.",
+      "imageUrl": "https://images.unsplash.com/photo-1625535069654-cfeb8f829088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2RlJTIwZWRpdG9yfGVufDB8fHx8MTc2MTEwMjQ1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code editor"
+    }
+  ]
 }
