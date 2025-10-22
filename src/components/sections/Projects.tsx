@@ -12,13 +12,7 @@ import { cn } from '@/lib/utils';
 const ProjectCard = ({ project, delay = 0, className }: { project: typeof portfolioData.projects[0], delay?: number, className?: string }) => {
   const placeholder = PlaceHolderImages.find(p => p.id === project.image);
   return (
-    <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay }}
-        viewport={{ once: true, amount: 0.2 }}
-        className={className}
-    >
+    <AnimatedDiv delay={delay} className={className}>
       <Card className="h-full flex flex-col shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
         <CardHeader>
           {placeholder && (
@@ -46,7 +40,7 @@ const ProjectCard = ({ project, delay = 0, className }: { project: typeof portfo
           </div>
         </CardContent>
       </Card>
-    </motion.div>
+    </AnimatedDiv>
   );
 };
 
