@@ -73,7 +73,7 @@ export const portfolioData = {
     },
     {
       title: 'LeetCode AI Hint Generator',
-      description: 'Developed a full-stack application with a Python (FastAPI) backend and a JavaScript-based Chrome Extension frontend. Integrated Google Gemini API to generate real-time, AI-powered hints. Engineered the Chrome Extension to scrape problem data from the LeetCode DOM.',
+      description: 'Developed a full-stack application by engineering a Python (FastAPI) backend and a JavaScript-based Chrome Extension frontend. Integrated the Google Gemini API to generate real-time, AI-powered hints and solution strategies based on dynamic problem data. Engineered the Chrome Extension to use content scripts to scrape problem titles and descriptions directly from the LeetCode DOM.',
       technologies: ['Python', 'FastAPI', 'JavaScript', 'Gemini API', 'Chrome Extension'],
       image: 'project-leetcode-ai',
     },
