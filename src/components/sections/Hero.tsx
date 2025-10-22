@@ -8,10 +8,6 @@ import Link from 'next/link';
 export function Hero() {
   const { name, contact } = portfolioData;
 
-  const handleContactClick = () => {
-    window.location.href = `mailto:${contact.email}`;
-  };
-
   return (
     <section id="hero" className="relative min-h-[calc(100vh-5rem)] flex items-center">
         <div className="absolute inset-0 bg-grid-black/[0.05] dark:bg-grid-white/[0.05]"></div>
@@ -27,8 +23,8 @@ export function Hero() {
                 <Button asChild size="lg">
                     <a href="#projects">View My Work</a>
                 </Button>
-                <Button variant="outline" size="lg" onClick={handleContactClick}>
-                    Get in Touch
+                <Button asChild variant="outline" size="lg">
+                    <a href={`mailto:${contact.email}`}>Get in Touch</a>
                 </Button>
             </div>
             <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
