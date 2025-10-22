@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 export function Hero() {
   const { name, contact } = portfolioData;
+  const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${contact.email}`;
 
   return (
     <section id="hero" className="relative min-h-[calc(100vh-5rem)] flex items-center">
@@ -24,7 +25,7 @@ export function Hero() {
                     <a href="#projects">View My Work</a>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                    <a href={`mailto:${contact.email}`}>Get in Touch</a>
+                    <a href={gmailComposeUrl} target="_blank" rel="noopener noreferrer">Get in Touch</a>
                 </Button>
             </div>
             <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
