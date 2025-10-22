@@ -18,11 +18,6 @@ export const portfolioData = {
         icon: Github,
       },
       {
-        name: 'Portfolio',
-        url: '#', // The current site is the portfolio
-        icon: Globe,
-      },
-      {
         name: 'Email',
         url: 'https://mail.google.com/mail/?view=cm&fs=1&to=shettyadarsh321@gmail.com',
         icon: Mail,
@@ -34,7 +29,7 @@ export const portfolioData = {
       },
     ],
   },
-  professionalSummary: `A highly motivated and detail-oriented final-year Computer Science student with a strong foundation in full-stack development, seeking an entry-level software engineer position. Passionate about building innovative and user-centric applications, I have hands-on experience with modern technologies like React, Node.js, and Python, as well as emerging fields such as blockchain and AI. I am eager to apply my academic knowledge, diverse project experience, and strong problem-solving skills to contribute effectively to a professional development team and build impactful software solutions.`,
+  professionalSummary: `A highly motivated and detail-oriented final-year Computer Science student with a strong foundation in full-stack development and a keen interest in tackling complex challenges. I am actively seeking an entry-level software engineer position where I can leverage my skills to contribute to a dynamic team. Passionate about building innovative and user-centric applications, I have cultivated hands-on experience with modern technologies like React, Node.js, and Python, while also exploring emerging fields such as blockchain and artificial intelligence. My goal is to apply my comprehensive academic knowledge, diverse project experience, and robust problem-solving abilities to develop impactful software solutions and grow as a professional in the tech industry.`,
   education: [
     {
       institution: 'Vivekananda College of Engineering and Technology',
