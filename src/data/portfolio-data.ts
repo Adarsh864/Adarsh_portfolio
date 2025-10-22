@@ -66,16 +66,16 @@ export const portfolioData = {
       image: 'project-nft-marketplace',
     },
     {
-      title: 'LeetCode AI Hint Generator',
-      description: 'Developed a full-stack application by engineering a Python (FastAPI) backend and a JavaScript-based Chrome Extension frontend. Integrated the Google Gemini API to generate real-time, AI-powered hints and solution strategies based on dynamic problem data. Engineered the Chrome Extension to use content scripts to scrape problem titles and descriptions directly from the LeetCode DOM.',
-      technologies: ['Python', 'FastAPI', 'JavaScript', 'Gemini API', 'Chrome Extension'],
-      image: 'project-leetcode-ai',
-    },
-    {
       title: 'Online Doctor Appointment Booking System',
       description: 'Developed a full-stack doctor appointment system using the MERN stack. Engineered the complete payment workflow by integrating the Razorpay API. Built RESTful API endpoints and ensured secure user authentication using JWT.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Razorpay API', 'JWT'],
       image: 'project-doctor-appointment',
+    },
+    {
+      title: 'LeetCode AI Hint Generator',
+      description: 'Developed a full-stack application by engineering a Python (FastAPI) backend and a JavaScript-based Chrome Extension frontend. Integrated the Google Gemini API to generate real-time, AI-powered hints and solution strategies based on dynamic problem data. Engineered the Chrome Extension to use content scripts to scrape problem titles and descriptions directly from the LeetCode DOM.',
+      technologies: ['Python', 'FastAPI', 'JavaScript', 'Gemini API', 'Chrome Extension'],
+      image: 'project-leetcode-ai',
     },
   ],
   skills: {
