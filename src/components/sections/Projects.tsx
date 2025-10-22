@@ -1,3 +1,5 @@
+"use client";
+
 import Image from 'next/image';
 import { portfolioData } from '@/data/portfolio-data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
