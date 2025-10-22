@@ -34,7 +34,7 @@ export const portfolioData = {
       },
     ],
   },
-  professionalSummary: `A Final-year Computer Science student seeking an entry-level software engineer position. Eager to apply my academic knowledge and problem-solving skills to contribute to a professional development team.`,
+  professionalSummary: `A highly motivated and detail-oriented final-year Computer Science student with a strong foundation in full-stack development, seeking an entry-level software engineer position. Passionate about building innovative and user-centric applications, I have hands-on experience with modern technologies like React, Node.js, and Python, as well as emerging fields such as blockchain and AI. I am eager to apply my academic knowledge, diverse project experience, and strong problem-solving skills to contribute effectively to a professional development team and build impactful software solutions.`,
   education: [
     {
       institution: 'Vivekananda College of Engineering and Technology',
@@ -66,16 +66,16 @@ export const portfolioData = {
       image: 'project-nft-marketplace',
     },
     {
-      title: 'LeetCode AI Hint Generator',
-      description: 'Developed a full-stack application by engineering a Python (FastAPI) backend and a JavaScript-based Chrome Extension frontend. Integrated the Google Gemini API to generate real-time, AI-powered hints and solution strategies based on dynamic problem data. Engineered the Chrome Extension to use content scripts to scrape problem titles and descriptions directly from the LeetCode DOM.',
-      technologies: ['Python', 'FastAPI', 'JavaScript', 'Gemini API', 'Chrome Extension'],
-      image: 'project-leetcode-ai',
-    },
-    {
       title: 'Online Doctor Appointment Booking System',
       description: 'Developed a full-stack doctor appointment system using the MERN stack. Engineered the complete payment workflow by integrating the Razorpay API. Built RESTful API endpoints and ensured secure user authentication using JWT.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Razorpay API', 'JWT'],
       image: 'project-doctor-appointment',
+    },
+    {
+      title: 'LeetCode AI Hint Generator',
+      description: 'Developed a full-stack application by engineering a Python (FastAPI) backend and a JavaScript-based Chrome Extension frontend. Integrated the Google Gemini API to generate real-time, AI-powered hints and solution strategies based on dynamic problem data. Engineered the Chrome Extension to use content scripts to scrape problem titles and descriptions directly from the LeetCode DOM.',
+      technologies: ['Python', 'FastAPI', 'JavaScript', 'Gemini API', 'Chrome Extension'],
+      image: 'project-leetcode-ai',
     },
   ],
   skills: {
