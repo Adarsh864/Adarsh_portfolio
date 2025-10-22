@@ -22,7 +22,7 @@ export function Hero() {
                     <a href="#projects">View My Work</a>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                    <a href="#contact">Get in Touch</a>
+                    <a href={`mailto:${contact.email}`}>Get in Touch</a>
                 </Button>
             </div>
             <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
