@@ -1,6 +1,5 @@
 import { portfolioData } from '@/data/portfolio-data';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 
 export function Footer() {
   const { name, contact } = portfolioData;
@@ -12,11 +11,6 @@ export function Footer() {
         <p className="max-w-xl mx-auto mb-6 text-secondary-foreground/80">
           I'm currently seeking new opportunities. Feel free to reach out if you have any questions or just want to connect!
         </p>
-        <div className="flex justify-center items-center gap-4 mb-8">
-            <Button asChild variant="default" size="lg">
-                <a href={`mailto:${contact.email}`}>Email Me</a>
-            </Button>
-        </div>
         <div className="flex justify-center gap-6 mb-8">
           {contact.socials.map((social) => (
             <Link
