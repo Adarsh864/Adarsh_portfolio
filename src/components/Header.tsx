@@ -36,7 +36,7 @@ export function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="#" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
           <Code className="h-8 w-8 text-primary" />
-          <span className="font-headline text-xl font-bold">{portfolioData.name}</span>
+          <span className="font-headline text-xl font-bold">Portfolio</span>
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">
