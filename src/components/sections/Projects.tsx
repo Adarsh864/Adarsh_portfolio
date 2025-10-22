@@ -16,7 +16,7 @@ const ProjectCard = ({ project, delay = 0, className }: { project: typeof portfo
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay }}
-        viewport={{ amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         className={className}
     >
       <Card className="h-full flex flex-col shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">

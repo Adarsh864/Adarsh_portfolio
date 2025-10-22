@@ -20,7 +20,7 @@ export function About() {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            viewport={{ amount: 0.2 }}
+            viewport={{ once: true, amount: 0.2 }}
         >
           <div className="max-w-3xl mx-auto bg-card p-8 rounded-xl shadow-lg relative hover:shadow-2xl transition-shadow duration-300">
             <p className="text-lg text-card-foreground/90 leading-relaxed whitespace-pre-wrap">
