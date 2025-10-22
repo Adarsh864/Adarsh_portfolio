@@ -55,11 +55,11 @@ export function Projects() {
               );
             })}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             {secondRowProjects.map((project, index) => {
               const placeholder = PlaceHolderImages.find(p => p.id === project.image);
               return (
-                <AnimatedDiv key={index} delay={0.1 * (index + 3)} className="md:col-start-2">
+                <AnimatedDiv key={index} delay={0.1 * (index + 3)} className="md:col-start-1 md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto">
                    <Card className="h-full flex flex-col shadow-md hover:shadow-xl transition-shadow duration-300">
                     <CardHeader>
                       {placeholder && (
