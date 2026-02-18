@@ -9,7 +9,7 @@ export const portfolioData = {
     socials: [
       {
         name: 'LinkedIn',
-        url: 'https://linkedin.com/in/adarsh-shetty',
+        url: 'https://www.linkedin.com/in/adarshshetty7/',
         icon: Linkedin,
       },
       {
