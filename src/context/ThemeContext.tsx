@@ -10,12 +10,12 @@ interface ThemeContextValue {
 }
 
 const ThemeContext = createContext<ThemeContextValue>({
-  theme: 'cyberpunk',
+  theme: 'original',
   toggleTheme: () => {},
 });
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<PortfolioTheme>('cyberpunk');
+  const [theme, setTheme] = useState<PortfolioTheme>('original');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
